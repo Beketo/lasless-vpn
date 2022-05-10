@@ -1,0 +1,76 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.header-links {
+    width: 757px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5665;
+    text-transform: capitalize;
+}
+
+.header-links a:hover {
+    color: #F53855;
+}
+
+.sign-in a:hover {
+    color: #F53855;
+}
+
+.logo {
+    padding-right: 175px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in {
+    margin-right: 30px;
+}
+.sign-in a {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0B132A;
+}
+
+.btn {
+    height: 45px;
+    width: 150px;
+    border: 2px solid #F53855;
+    border-radius: 25px;
+    background: #fff;
+}
+
+.btn a {
+    color: #F53855;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.sign-up:hover .btn {
+    background: #F53838;
+    transition: .3s;
+}
+
+.sign-up:hover .btn-text {
+    color: #fff;
+    transition: .3s;
+}
+
+
+
+

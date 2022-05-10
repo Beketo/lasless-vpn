@@ -1,0 +1,142 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    width: 1207px;
+}
+
+.main h1 {
+    
+    font-size: 50px;
+    color: #0B132A;
+}
+
+.main p {
+    
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.main span {
+    font-weight: bold;
+}
+
+.main p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.started {
+    font-weight: 400;
+    width: 555px;
+}
+
+.btn-start {
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    box-shadow: 0 15px 60px 0 rgba(245, 56, 56, 0.35);
+    border: none;
+}
+
+.btn-start a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn-start:hover {
+    background-color: #fff;
+    border: 2px solid #F53838;
+}
+
+.btn-start:hover a {
+    color: #F53838;
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 200px;
+    margin-top: 103px;
+    margin-bottom: 95px;
+    background: #fff;
+    box-shadow: 0px 20px 50px 0px rgba(34, 60, 80, 0.2);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 125px;
+    border-right: 1px solid rgba(34, 60, 80, 0.2);
+}
+
+.card img {
+    margin-right: 36px;
+
+}
+
+.card-text h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.card-text p {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.card:last-child {
+    border-right: none;
+}
+
+.provide {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.provide img {
+    margin-right: 170px;
+}
+
+.provide-text {
+    width: 383px;
+    padding-top: 45px;
+    /* height: 365px; */
+}
+
+.provide-text h3 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.provide-text p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+li {
+    background-image: url("../../img/icons/mark.png");
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+

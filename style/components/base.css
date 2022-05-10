@@ -1,0 +1,11 @@
+body {
+    font-family: 'Rubik';
+    
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 5%;
+    /* border: 2px solid black; */
+}

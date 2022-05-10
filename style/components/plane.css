@@ -1,0 +1,116 @@
+.section2 {
+    background-color: #FAFAFA;
+}
+
+.choose-plan {
+    border-top: 1px solid #FAFAFA;
+    margin-top: 125px;
+    text-align: center;
+}
+
+.choose-plan h3 {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.choose-plan p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 1090px;
+}
+
+.plan:hover {
+    border: 2px solid #F53838;
+    border-radius: 10px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    position: relative;
+    width: 330px;
+    height: 650px;
+    border: 1px solid green;
+    background-color: #fff;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.plan img {
+    /* margin-top: 80px; */
+    width: 146px;
+}
+
+.free {
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    /* margin-top: 130px; */
+    margin-bottom: 20px;
+}
+
+.free span {
+    color: #8f9192;
+    text-transform: lowercase;
+}
+
+.plan h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.plan-text {
+    text-align: left;
+}
+
+.plan-text p {
+    background-image: url("../../img/icons/mark2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+
+.plan-select {
+    margin-bottom: 50px;
+    width: 178px;
+    height: 45px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    background-color: #fff;
+    font-weight: 700;
+    color: #F53838;
+    text-transform: capitalize;
+    cursor: pointer; 
+}
+
+.plan:hover .plan-select {
+    background: #F53838;
+    border-radius: 50px;
+    color: #fff;
+    box-shadow: 0 15px 60px 0 rgba(245, 56, 56, 0.35);
+    transition: .3s;
+}
+
+.free-select {
+    position: absolute;
+    bottom: 0px;
+}

@@ -1,0 +1,129 @@
+.futter {
+    background: #F8F8F8;
+    width: 100%;
+    height: 563px;
+    border: 1px solid #F8F8F8;
+}
+
+.subcribe {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 233px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #fff;
+    box-shadow: 0px 20px 50px 0px rgb(34 60 80 / 20%);
+    margin-top: -110px;
+}
+
+.subcribe h2 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.subcribe p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.subcribe-btn {
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    border: 1px solid #F53838;
+    box-shadow: 0 15px 60px 0 rgba(245, 56, 56, 0.35);
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.subcribe-btn:hover {
+    background-color: #fff;
+    color: #F53838;
+    cursor: pointer;
+}
+
+.futter-info {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 66px;
+}
+
+.futter-info a:hover  {
+    color: #F53838;
+}
+
+.futter-logo {
+    width: 340px;
+    margin-right: 230px;
+}
+
+.futter-logo p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.text-p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.futter-icons {
+    margin-left: -17px;
+    margin-top: 30px;
+}
+
+.product, .engage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product  h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product a {
+    color: #4F5665;
+}
+
+.engage h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.engage a {
+    color: #4F5665;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+.money h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.money a {
+    color: #4F5665;
+    margin-bottom: 25px;
+}
